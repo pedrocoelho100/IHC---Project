@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="TestIHCNav.Pages.Adicionar.Sessao_Adicionar_List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,28,10,16">
+        <!-- TODO: set @SelectedSource -->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="669" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Margin="21,9,592,73" FontSize="13.333">Cinema</TextBlock>
+        <TextBlock Margin="21,46,592,32" FontSize="13.333">Filme</TextBlock>
+        <TextBlock Margin="21,83,578,96" FontSize="13.333" Grid.RowSpan="2">Sessão</TextBlock>
+        <TextBox x:Name="cinema_textbox" Margin="125,7,254,66" />
+        <TextBox x:Name="filme_textbox" Margin="125,40,254,32"/>
+        <TextBox x:Name="sessao_textbox" Margin="125,74,254,100" Grid.RowSpan="2" />
+        <Button Content="Adicionar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="adicionar_button" Width="89" Click="adicionar_button_Click" Margin="326,24,254,44" Grid.Row="1" />
+    </Grid>
+
+</UserControl>

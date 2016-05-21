@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="TestIHCNav.Pages.Adicionar.Distribuidora_Adicionar_List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,28,10,16">
+        <!-- TODO: set @SelectedSource -->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="737" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Margin="10,10,603,72" FontSize="13.333">ID</TextBlock>
+        <TextBlock Margin="10,59,603,19" FontSize="13.333">Nome</TextBlock>
+        <TextBlock Margin="10,10,603,68" FontSize="13.333" Grid.Row="1">Pagamento Inicial</TextBlock>
+        <TextBlock Margin="10,62,603,19" FontSize="13.333" Grid.Row="1">Comissão Por Bilhete</TextBlock>
+        <TextBox x:Name="id_textbox" Margin="157,6,523,67" />
+        <TextBox x:Name="nome_textbox" Margin="157,54,313,19" />
+        <TextBox x:Name="pagamento_textbox" Margin="157,0,313,73" Grid.Row="1"/>
+        <TextBox x:Name="comissao_textbox" Margin="157,53,313,19" Grid.Row="1"/>
+        <Button Content="Adicionar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="adicionar_button" Width="89" Click="adicionar_button_Click" Margin="335,5,313,-33" Grid.Row="2" />
+    </Grid>
+
+</UserControl>

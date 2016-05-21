@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="TestIHCNav.Pages.Editar.Sessao_Editar_List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,28,10,16">
+        <!-- TODO: set @SelectedSource -->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170" />
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition Width="Auto" MinWidth="469" />
+        </Grid.ColumnDefinitions>
+
+        <mui:ModernTab x:Name="cinemas_list" Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
+            <mui:ModernTab.Links>
+                <!-- TODO: set @Source -->
+                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
+                <mui:Link DisplayName="Algarve Shopping" Source="Algarve Shopping" />
+                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
+                <mui:Link DisplayName="Glicínias Plaza" Source="Glicínias Plaza" />
+                <mui:Link DisplayName="Leiria Shopping" Source="Leiria Shopping" />
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+
+        <mui:ModernTab x:Name="filmes_list" Layout="List" Margin="0,0,38,0" Grid.Column="1" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged2">
+            <mui:ModernTab.Links>
+                <!-- TODO: set @Source -->
+                <mui:Link DisplayName="Má Vizinhança 2" Source="Má Vizinhança 2" />
+                <mui:Link DisplayName="Um Dia de Mãe" Source="Um Dia de Mãe" />
+                <mui:Link DisplayName="O Livro da Selva" Source="O Livro da Selva" />
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+
+        <TextBox x:Name="sessoes_textbox" Grid.Column="2" Margin="0,34,325,42"/>
+        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="10,10,370,57" Grid.Column="2" Grid.Row="1" />
+    </Grid>
+
+</UserControl>

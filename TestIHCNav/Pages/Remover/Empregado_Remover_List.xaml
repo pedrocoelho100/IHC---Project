@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="TestIHCNav.Pages.Remover.Empregado_Remover_List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,28,10,16">
+        <!-- TODO: set @SelectedSource -->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto"  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="Auto" MinWidth="469" />
+        </Grid.ColumnDefinitions>
+
+        <mui:ModernTab Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
+            <mui:ModernTab.Links>
+                <!-- TODO: set @Source -->
+                <mui:Link DisplayName="Ana Maria Dias" Source="Ana Maria Dias" />
+                <mui:Link DisplayName="Guilherme Vaz Fonseca" Source="Guilherme Vaz Fonseca" />
+                <mui:Link DisplayName="Jorge Manuel Costa" Source="Jorge Manuel Costa" />
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+        <Button Content="Remover" Height="61" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click" Margin="0,2,195,-61" Grid.Row="2" Grid.ColumnSpan="2" />
+    </Grid>
+
+</UserControl>
