@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="100"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150" />
@@ -40,7 +40,7 @@
                 <mui:Link DisplayName="O Livro da Selva" Source="O Livro da Selva" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
-        <Button Content="Remover" Height="52" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click"  Grid.Row ="2"  Margin="0,2,26,-52" Grid.ColumnSpan="3"  />
+        <Button Content="Remover" Height="52" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click"  Grid.Row ="2"  Margin="0,0,26,48" Grid.ColumnSpan="3"  />
     </Grid>
 
 </UserControl>

@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -30,14 +30,14 @@
         </mui:ModernTab>
 
         <TextBlock Margin="10,0,403,82" FontSize="13.333" Grid.Column="1">ID</TextBlock>
-        <TextBlock Margin="10,63,403,15" FontSize="13.333" Grid.Column="1">Cinema</TextBlock>
-        <TextBlock Margin="10,27,403,54" FontSize="13.333" Grid.Column="1" Grid.Row="1">Salário</TextBlock>
-        <TextBlock Margin="10,77,403,2" FontSize="13.333" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">NIF</TextBlock>
+        <TextBlock Margin="10,44,403,34" FontSize="13.333" Grid.Column="1">Cinema</TextBlock>
+        <TextBlock Margin="10,81,403,0" FontSize="13.333" Grid.Column="1">Salário</TextBlock>
+        <TextBlock Margin="10,24,403,42" FontSize="13.333" Grid.Column="1" Grid.Row="1">NIF</TextBlock>
         <TextBox x:Name="id_textbox" Margin="94,0,343,73" Grid.Column="1"/>
-        <TextBox x:Name="cinema_textbox" Margin="94,58,282,15" Grid.Column="1"/>
-        <TextBox x:Name="salario_textbox" Margin="94,18,282,54" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="nif_textbox" Margin="94,70,282,0" Grid.Column="1" Grid.Row="1"/>
-        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="98,23,282,209" Grid.Column="1" Grid.Row="2" />
+        <TextBox x:Name="cinema_textbox" Margin="94,39,249,34" Grid.Column="1"/>
+        <TextBox x:Name="salario_textbox" Margin="94,78,249,95" Grid.Column="1" Grid.RowSpan="2"/>
+        <TextBox x:Name="nif_textbox" Margin="94,19,249,52" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Alterar" Height="34" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="131,67,249,0" Grid.Column="1" Grid.Row="1" />
     </Grid>
 
 </UserControl>

@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -43,9 +43,9 @@
         <TextBox x:Name="duracao_textbox" Margin="112,0,338,72" Grid.Column="1" Grid.Row="1"/>
         <TextBox x:Name="estreia_textbox" Margin="112,34,279,38" Grid.Column="1" Grid.Row="1"/>
         <TextBox x:Name="tecnologia_textbox" Margin="112,67,279,5" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="distribuidora_textbox" Margin="112,0,279,239" Grid.Column="1" Grid.Row="2"/>
-        <TextBox x:Name="cinemas_textbox" Margin="112,31,279,209" Grid.Column="1" Grid.Row="2"/>
-        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="133,78,279,154" Grid.Column="1" Grid.Row="2" />
+        <TextBox x:Name="distribuidora_textbox" Margin="112,0,279,-14" Grid.Column="1" Grid.Row="2"/>
+        <TextBox x:Name="cinemas_textbox" Margin="112,32,279,-44" Grid.Column="1" Grid.Row="2"/>
+        <Button Content="Alterar" Height="31" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="133,62,279,-80" Grid.Column="1" Grid.Row="2" />
     </Grid>
 
 </UserControl>

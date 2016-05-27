@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -34,17 +34,17 @@
         <TextBlock Margin="6,71,407,10" FontSize="13.333" Grid.Column="1">Idade Mínima</TextBlock>
         <TextBlock Margin="6,6,407,72" FontSize="13.333" Grid.Column="1" Grid.Row="1">Duração</TextBlock>
         <TextBlock Margin="6,40,407,38" FontSize="13.333" Grid.Column="1" Grid.Row="1">Data de Estreia</TextBlock>
-        <TextBlock Margin="6,73,407,5" FontSize="13.333" Grid.Column="1" Grid.Row="1">Tecnologias(s)</TextBlock>
-        <TextBlock Margin="6,11,407,-30" FontSize="13.333" Grid.Column="1" Grid.Row="2">Distribuidora</TextBlock>
-        <TextBlock Margin="6,48,407,-67" FontSize="13.333" Grid.Column="1" Grid.Row="2">Cinemas</TextBlock>
+        <TextBlock Margin="6,68,407,10" FontSize="13.333" Grid.Column="1" Grid.Row="1">Tecnologias(s)</TextBlock>
+        <TextBlock Margin="6,0,407,-19" FontSize="13.333" Grid.Column="1" Grid.Row="2">Distribuidora</TextBlock>
+        <TextBlock Margin="6,32,407,-51" FontSize="13.333" Grid.Column="1" Grid.Row="2">Cinemas</TextBlock>
         <TextBox x:Name="id_textbox" Margin="112,0,338,73" IsEnabled="False" Grid.Column="1"/>
         <TextBox x:Name="titulo_textbox" Margin="112,33,279,40" IsEnabled="False" Grid.Column="1"/>
         <TextBox x:Name="idade_textbox" Margin="112,66,338,6" IsEnabled="False" Grid.Column="1"/>
         <TextBox x:Name="duracao_textbox" Margin="112,0,338,72" IsEnabled="False" Grid.Column="1" Grid.Row="1"/>
         <TextBox x:Name="estreia_textbox" Margin="112,34,279,38" IsEnabled="False" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="tecnologia_textbox" Margin="112,73,279,0" IsEnabled="False" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
-        <TextBox x:Name="distribuidora_textbox" Margin="112,10,279,-38" IsEnabled="False" Grid.Column="1" Grid.Row="2"/>
-        <TextBox x:Name="cinemas_textbox" Margin="112,48,279,-76" IsEnabled="False" Grid.Column="1" Grid.Row="2"/>
+        <TextBox x:Name="tecnologia_textbox" Margin="112,68,279,5" IsEnabled="False" Grid.Column="1" Grid.Row="1"/>
+        <TextBox x:Name="distribuidora_textbox" Margin="112,0,279,-13" IsEnabled="False" Grid.Column="1" Grid.Row="2"/>
+        <TextBox x:Name="cinemas_textbox" Margin="112,31,279,-43" IsEnabled="False" Grid.Column="1" Grid.Row="2"/>
     </Grid>
 
 </UserControl>

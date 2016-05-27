@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="170" />
@@ -40,7 +40,8 @@
                 <mui:Link DisplayName="O Livro da Selva" Source="O Livro da Selva" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
-        
+
+        <TextBlock Margin="0,1,413,81" FontSize="13.333" Grid.Column="2">Sessões</TextBlock>
         <TextBox x:Name="sessoes_textbox" IsEnabled="False" Grid.Column="2" Margin="0,34,325,42"/>
     </Grid>
 

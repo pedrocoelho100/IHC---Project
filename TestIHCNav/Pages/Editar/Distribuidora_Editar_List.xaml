@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -29,12 +29,12 @@
         </mui:ModernTab>
 
         <TextBlock Margin="10,31,403,51" FontSize="13.333" Grid.Column="1">ID</TextBlock>
-        <TextBlock Margin="10,10,403,68" FontSize="13.333" Grid.Column="1" Grid.Row="1">Pagamento Inicial</TextBlock>
-        <TextBlock Margin="10,0,403,-19" FontSize="13.333" Grid.Row="2" Grid.Column="1">Comissão Por Bilhete</TextBlock>
+        <TextBlock Margin="10,78,403,0" FontSize="13.333" Grid.Column="1">Pagamento Inicial</TextBlock>
+        <TextBlock Margin="10,19,403,50" FontSize="13.333" Grid.Row="1" Grid.Column="1">Comissão Por Bilhete</TextBlock>
         <TextBox x:Name="id_textbox" Margin="154,31,350,42" Grid.Column="1" Grid.Row="0"/>
-        <TextBox x:Name="pagamento_textbox" Margin="154,10,273,63" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="comissao_textbox" Margin="154,0,273,236" Grid.Column="1" Grid.Row="2"/>
-        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="175,65,273,169" Grid.Column="1" Grid.Row="2" />
+        <TextBox x:Name="pagamento_textbox" Margin="154,73,273,0" Grid.Column="1"/>
+        <TextBox x:Name="comissao_textbox" Margin="154,16,273,58" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Alterar" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="175,66,273,0" Grid.Column="1" Grid.Row="1" />
     </Grid>
 
 </UserControl>

@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -30,16 +30,16 @@
         </mui:ModernTab>
 
         <TextBlock Margin="10,0,403,82" FontSize="13.333" Grid.Column="1">Adulto</TextBlock>
-        <TextBlock Margin="10,63,403,15" FontSize="13.333" Grid.Column="1">Criança até 12 anos</TextBlock>
-        <TextBlock Margin="10,27,403,54" FontSize="13.333" Grid.Column="1" Grid.Row="1">Sénior maior de 65 anos</TextBlock>
-        <TextBlock Margin="10,81,403,0" FontSize="13.333" Grid.Column="1" Grid.Row="1">Segunda-feira</TextBlock>
-        <TextBlock Margin="10,34,403,-53" FontSize="13.333" Grid.Column="1" Grid.Row="2">Cartão</TextBlock>
+        <TextBlock Margin="10,44,403,34" FontSize="13.333" Grid.Column="1">Criança até 12 anos</TextBlock>
+        <TextBlock Margin="10,81,403,0" FontSize="13.333" Grid.Column="1">Sénior maior de 65 anos</TextBlock>
+        <TextBlock Margin="10,24,403,56" FontSize="13.333" Grid.Column="1" Grid.Row="1">Segunda-feira</TextBlock>
+        <TextBlock Margin="10,63,403,18" FontSize="13.333" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">Cartão</TextBlock>
         <TextBox x:Name="adulto_textbox" Margin="175,0,340,73" Grid.Column="1"/>
-        <TextBox x:Name="criança_textbox" Margin="175,63,340,10" Grid.Column="1"/>
-        <TextBox x:Name="senior_textbox" Margin="175,18,340,54" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="segunda_feira_textbox" Margin="175,72,340,0" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="cartao_textbox" Margin="175,25,340,213" Grid.Column="1" Grid.Row="2"/>
-        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="127,76,340,156" Grid.Column="1" Grid.Row="2" />
+        <TextBox x:Name="criança_textbox" Margin="175,39,340,34" Grid.Column="1"/>
+        <TextBox x:Name="senior_textbox" Margin="175,78,340,94" Grid.Column="1" Grid.RowSpan="2"/>
+        <TextBox x:Name="segunda_feira_textbox" Margin="175,20,340,52" Grid.Column="1" Grid.Row="1"/>
+        <TextBox x:Name="cartao_textbox" Margin="175,63,340,10" Grid.Column="1" Grid.Row="1"/>
+        <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="127,11,340,-31" Grid.Column="1" Grid.Row="2" />
     </Grid>
 
 </UserControl>

@@ -22,11 +22,11 @@
         <TextBlock Margin="10,10,603,72" FontSize="13.333">ID</TextBlock>
         <TextBlock Margin="10,59,603,19" FontSize="13.333">Nome</TextBlock>
         <TextBlock Margin="10,10,603,68" FontSize="13.333" Grid.Row="1">Pagamento Inicial</TextBlock>
-        <TextBlock Margin="10,62,603,19" FontSize="13.333" Grid.Row="1">Comissão Por Bilhete</TextBlock>
+        <TextBlock Margin="10,52,603,29" FontSize="13.333" Grid.Row="1">Comissão Por Bilhete</TextBlock>
         <TextBox x:Name="id_textbox" Margin="157,6,523,67" />
         <TextBox x:Name="nome_textbox" Margin="157,54,313,19" />
         <TextBox x:Name="pagamento_textbox" Margin="157,0,313,73" Grid.Row="1"/>
-        <TextBox x:Name="comissao_textbox" Margin="157,53,313,19" Grid.Row="1"/>
+        <TextBox x:Name="comissao_textbox" Margin="157,47,313,25" Grid.Row="1"/>
         <Button Content="Adicionar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="adicionar_button" Width="89" Click="adicionar_button_Click" Margin="335,5,313,-33" Grid.Row="2" />
     </Grid>
 

@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="12"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="153" />
@@ -59,7 +59,7 @@
             </mui:ModernTab.Links>
         </mui:ModernTab>
 -->
-        <TextBox x:Name="salas_textbox" Grid.Column="3" Margin="0,25,-72,56"/>
+        <TextBox x:Name="salas_textbox" Grid.Column="3" Margin="0,25,-72,52"/>
         <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="47,10,-54,58" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" />
     </Grid>
 

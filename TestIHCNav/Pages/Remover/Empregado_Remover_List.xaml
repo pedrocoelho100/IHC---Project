@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="Auto"  />
+            <RowDefinition Height="100"  />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -28,7 +28,7 @@
                 <mui:Link DisplayName="Jorge Manuel Costa" Source="Jorge Manuel Costa" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
-        <Button Content="Remover" Height="61" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click" Margin="0,2,195,-61" Grid.Row="2" Grid.ColumnSpan="2" />
+        <Button Content="Remover" Height="61" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click" Margin="0,0,195,39" Grid.Row="2" Grid.ColumnSpan="2" />
     </Grid>
 
 </UserControl>
