@@ -26,6 +26,8 @@
                 <mui:Link DisplayName="Ana Maria Dias" Source="Ana Maria Dias" />
                 <mui:Link DisplayName="Guilherme Vaz Fonseca" Source="Guilherme Vaz Fonseca" />
                 <mui:Link DisplayName="Jorge Manuel Costa" Source="Jorge Manuel Costa" />
+                <mui:Link DisplayName="Miguel Fonseca" Source="Miguel Fonseca" />
+                <mui:Link DisplayName="Nuno Santos" Source="Nuno Santos" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 

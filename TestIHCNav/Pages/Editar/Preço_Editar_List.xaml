@@ -23,9 +23,9 @@
         <mui:ModernTab Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
+                <mui:Link DisplayName="IMAX" Source="IMAX" />
                 <mui:Link DisplayName="Normal" Source="Normal" />
                 <mui:Link DisplayName="3D" Source="3D" />
-                <mui:Link DisplayName="IMAX" Source="IMAX" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 

@@ -26,6 +26,8 @@
                 <mui:Link DisplayName="Ana Maria Dias" Source="Ana Maria Dias" />
                 <mui:Link DisplayName="Guilherme Vaz Fonseca" Source="Guilherme Vaz Fonseca" />
                 <mui:Link DisplayName="Jorge Manuel Costa" Source="Jorge Manuel Costa" />
+                <mui:Link DisplayName="Miguel Fonseca" Source="Miguel Fonseca" />
+                <mui:Link DisplayName="Nuno Santos" Source="Nuno Santos" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
         <Button Content="Remover" Height="61" VerticalAlignment="Center" HorizontalAlignment="Center" Name="remover_button" Width="474" Click="remover_button_Click" Margin="0,0,195,39" Grid.Row="2" Grid.ColumnSpan="2" />

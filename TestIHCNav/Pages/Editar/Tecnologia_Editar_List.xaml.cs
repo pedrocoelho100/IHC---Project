@@ -58,6 +58,24 @@ namespace TestIHCNav.Pages.Editar
                 var result = (TextBox)this.FindName("salas_textbox");
                 result.Text = "1, 2, 3, 4, 5, 6";
             }
+
+            if (e.Source.OriginalString.EndsWith("Alvaláxia"))
+            {
+                var result = (TextBox)this.FindName("salas_textbox");
+                result.Text = "1, 2, 3, 4";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Colombo"))
+            {
+                var result = (TextBox)this.FindName("salas_textbox");
+                result.Text = "1, 2, 3, 4, 5, 6, 7, 8";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Dolce Vita Porto"))
+            {
+                var result = (TextBox)this.FindName("salas_textbox");
+                result.Text = "1, 2, 3, 4, 5, 6";
+            }
         }
 
         private void ModernTab_SelectedSourceChanged2(object sender, SourceEventArgs e)
@@ -104,6 +122,72 @@ namespace TestIHCNav.Pages.Editar
                 {
                     var result = (TextBox)this.FindName("salas_textbox");
                     result.Text = "5, 6";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Alvaláxia"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "1, 2";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "3";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "4";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Colombo"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "4, 5";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "6, 7";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "3";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Dolce Vita Porto"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "1, 2";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "5";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var result = (TextBox)this.FindName("salas_textbox");
+                    result.Text = "6";
 
                 }
             }
@@ -180,6 +264,177 @@ namespace TestIHCNav.Pages.Editar
             var cinemas_list = (ModernTab)this.FindName("cinemas_list");
             var filmes_list = (ModernTab)this.FindName("filmes_list");
 
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Alvaláxia"))
+            {
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "1";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "2";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "3";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "4";
+                    }
+                }
+            }
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Alvaláxia"))
+            {
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "4";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "5";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "6";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "7";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "3";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                }
+            }
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Alvaláxia"))
+            {
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "1";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "2";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "5";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "6";
+                    }
+                }
+                if (filmes_list.SelectedSource.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    if (e.Source.OriginalString.EndsWith("Normal"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "3";
+                    }
+                    if (e.Source.OriginalString.EndsWith("3D"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                    if (e.Source.OriginalString.EndsWith("IMAX"))
+                    {
+                        var result = (TextBox)this.FindName("salas_textbox");
+                        result.Text = "-";
+                    }
+                }
+            }
             if (cinemas_list.SelectedSource.OriginalString.EndsWith("Vasco da Gama"))
             {
                 if (filmes_list.SelectedSource.OriginalString.EndsWith("Má Vizinhança 2"))

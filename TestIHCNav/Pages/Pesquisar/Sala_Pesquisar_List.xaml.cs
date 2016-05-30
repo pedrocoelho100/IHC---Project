@@ -32,10 +32,30 @@ namespace TestIHCNav.Pages.Pesquisar
             if (e.Source.OriginalString.EndsWith("Vasco da Gama"))
             {
                 var salas_list = (ModernTab)this.FindName("salas_list");
-                // Link[] links = new Link[5]; 
+                LinkCollection links = new LinkCollection();
+
+                for (int i = 0; i < 6; i++)
+                {
+                    Link link = new Link();
+
+                    link.DisplayName = (i + 1) + "";
+                    link.Source = new Uri((i + 1) + "", UriKind.Relative);
+
+                    links.Add(link);
+                }
+
+                salas_list.Links = links;
+
+                var capacidade = (TextBox)this.FindName("capacidade_textbox");
+                capacidade.Text = "102";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Alvaláxia"))
+            {
+                var salas_list = (ModernTab)this.FindName("salas_list");
                 LinkCollection links = new LinkCollection(); 
                                 
-                for(int i=0; i<6; i++)
+                for(int i=0; i<5; i++)
                 {
                     Link link = new Link(); 
                      
@@ -48,6 +68,48 @@ namespace TestIHCNav.Pages.Pesquisar
                 salas_list.Links = links; 
 
                 var capacidade = (TextBox)this.FindName("capacidade_textbox");
+                capacidade.Text = "98";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Colombo"))
+            {
+                var salas_list = (ModernTab)this.FindName("salas_list");
+                LinkCollection links = new LinkCollection();
+
+                for (int i = 0; i < 6; i++)
+                {
+                    Link link = new Link();
+
+                    link.DisplayName = (i + 1) + "";
+                    link.Source = new Uri((i + 1) + "", UriKind.Relative);
+
+                    links.Add(link);
+                }
+
+                salas_list.Links = links;
+
+                var capacidade = (TextBox)this.FindName("capacidade_textbox");
+                capacidade.Text = "140";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Dolce Vita Porto"))
+            {
+                var salas_list = (ModernTab)this.FindName("salas_list");
+                LinkCollection links = new LinkCollection();
+
+                for (int i = 0; i < 7; i++)
+                {
+                    Link link = new Link();
+
+                    link.DisplayName = (i + 1) + "";
+                    link.Source = new Uri((i + 1) + "", UriKind.Relative);
+
+                    links.Add(link);
+                }
+
+                salas_list.Links = links;
+
+                var capacidade = (TextBox)this.FindName("capacidade_textbox");
                 capacidade.Text = "102";
             }
 
@@ -55,7 +117,6 @@ namespace TestIHCNav.Pages.Pesquisar
             {
                 var salas_list = (ModernTab)this.FindName("salas_list");
                 LinkCollection links = new LinkCollection();
-
 
                 for (int i = 0; i < 3; i++)
                 {
@@ -77,7 +138,6 @@ namespace TestIHCNav.Pages.Pesquisar
                 var salas_list = (ModernTab)this.FindName("salas_list");
                 LinkCollection links = new LinkCollection();
 
-
                 for (int i = 0; i < 4; i++)
                 {
                     Link link = new Link();
@@ -98,7 +158,6 @@ namespace TestIHCNav.Pages.Pesquisar
                 var salas_list = (ModernTab)this.FindName("salas_list");
                 LinkCollection links = new LinkCollection();
 
-
                 for (int i = 0; i < 5; i++)
                 {
                     Link link = new Link();
@@ -118,7 +177,6 @@ namespace TestIHCNav.Pages.Pesquisar
             {
                 var salas_list = (ModernTab)this.FindName("salas_list");
                 LinkCollection links = new LinkCollection();
-
 
                 for (int i = 0; i < 5; i++)
                 {

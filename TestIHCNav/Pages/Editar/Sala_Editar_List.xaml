@@ -24,11 +24,14 @@
         <mui:ModernTab x:Name="cinemas_list" Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
                 <mui:Link DisplayName="Algarve Shopping" Source="Algarve Shopping" />
-                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
+                <mui:Link DisplayName="Alvaláxia" Source="Alvaláxia" />
+                <mui:Link DisplayName="Colombo" Source="Colombo" />
+                <mui:Link DisplayName="Dolce Vita Porto" Source="Dolce Vita Porto" />
                 <mui:Link DisplayName="Glicínias Plaza" Source="Glicínias Plaza" />
                 <mui:Link DisplayName="Leiria Shopping" Source="Leiria Shopping" />
+                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
+                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
         <mui:ModernTab x:Name="salas_list" Layout="List" Margin="0,0,38,0" Grid.Column="1" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged2">
@@ -41,7 +44,7 @@
             </mui:ModernTab.Links>
         </mui:ModernTab>
         <TextBlock Margin="1,15,412,61" FontSize="13.333" Grid.Column="2">Capacidade</TextBlock>
-        <TextBox x:Name="capacidade_textbox" Grid.Column="2" Grid.Row="0" Margin="92,15,351,58"/>
+        <TextBox x:Name="capacidade_textbox" Grid.Column="2" Grid.Row="0" Margin="1,40,351,33"/>
         <Button Content="Alterar" Height="33" VerticalAlignment="Center" HorizontalAlignment="Center" Name="editar_button" Width="89" Click="editar_button_Click" Margin="42,0,351,68" Grid.Column="2" Grid.Row="1" />
     </Grid>
 

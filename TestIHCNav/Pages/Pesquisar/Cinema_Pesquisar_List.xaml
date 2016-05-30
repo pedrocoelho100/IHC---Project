@@ -23,11 +23,14 @@
         <mui:ModernTab Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
                 <mui:Link DisplayName="Algarve Shopping" Source="Algarve Shopping" />
-                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
+                <mui:Link DisplayName="Alvaláxia" Source="Alvaláxia" />
+                <mui:Link DisplayName="Colombo" Source="Colombo" />
+                <mui:Link DisplayName="Dolce Vita Porto" Source="Dolce Vita Porto" />
                 <mui:Link DisplayName="Glicínias Plaza" Source="Glicínias Plaza" />
                 <mui:Link DisplayName="Leiria Shopping" Source="Leiria Shopping" />
+                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
+                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 

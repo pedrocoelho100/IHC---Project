@@ -57,6 +57,24 @@ namespace TestIHCNav.Pages.Pesquisar
                 var sessoes = (TextBox)this.FindName("sessoes_textbox");
                 sessoes.Text = "21h10, 00h20";
             }
+
+            if (e.Source.OriginalString.EndsWith("Alvaláxia"))
+            {
+                var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                sessoes.Text = "14h00, 17h00, 00h20";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Colombo"))
+            {
+                var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                sessoes.Text = "16h10, 21h20";
+            }
+
+            if (e.Source.OriginalString.EndsWith("Dolce Vita Porto"))
+            {
+                var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                sessoes.Text = "16h20, 21h20, 00h20";
+            }
         }
 
         private void ModernTab_SelectedSourceChanged2(object sender, SourceEventArgs e)
@@ -165,6 +183,72 @@ namespace TestIHCNav.Pages.Pesquisar
                 {
                     var sessoes = (TextBox)this.FindName("sessoes_textbox");
                     sessoes.Text = "21h10";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Alvaláxia"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h25, 16h50, 21h10";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "16h50, 21h10";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h25, 16h50";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Dolce Vita Porto"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h30, 16h10, 21h20";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h30, 16h10";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h30, 16h10, 21h20";
+
+                }
+            }
+
+            if (cinemas_list.SelectedSource.OriginalString.EndsWith("Colombo"))
+            {
+                if (e.Source.OriginalString.EndsWith("Má Vizinhança 2"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "16h20, 21h50";
+
+                }
+                if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h30, 16h20, 21h50";
+
+                }
+                if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
+                {
+                    var sessoes = (TextBox)this.FindName("sessoes_textbox");
+                    sessoes.Text = "14h30, 21h50";
 
                 }
             }

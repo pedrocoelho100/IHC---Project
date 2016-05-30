@@ -24,8 +24,8 @@
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
                 <mui:Link DisplayName="Má Vizinhança 2" Source="Má Vizinhança 2" />
-                <mui:Link DisplayName="Um Dia de Mãe" Source="Um Dia de Mãe" />
                 <mui:Link DisplayName="O Livro da Selva" Source="O Livro da Selva" />
+                <mui:Link DisplayName="Um Dia de Mãe" Source="Um Dia de Mãe" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 

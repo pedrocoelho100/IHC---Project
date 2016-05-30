@@ -71,6 +71,34 @@ namespace TestIHCNav.Pages.Editar
                 var nif = (TextBox)this.FindName("nif_textbox");
                 nif.Text = "204570932";
             }
+            if (e.Source.OriginalString.EndsWith("Miguel Fonseca"))
+            {
+                var id = (TextBox)this.FindName("id_textbox");
+                id.Text = "4";
+
+                var cinema = (TextBox)this.FindName("cinema_textbox");
+                cinema.Text = "Colombo";
+
+                var salario = (TextBox)this.FindName("salario_textbox");
+                salario.Text = "1.500€";
+
+                var nif = (TextBox)this.FindName("nif_textbox");
+                nif.Text = "297653091";
+            }
+            if (e.Source.OriginalString.EndsWith("Nuno Santos"))
+            {
+                var id = (TextBox)this.FindName("id_textbox");
+                id.Text = "5";
+
+                var cinema = (TextBox)this.FindName("cinema_textbox");
+                cinema.Text = "Dolce Vita Porto";
+
+                var salario = (TextBox)this.FindName("salario_textbox");
+                salario.Text = "1.350€";
+
+                var nif = (TextBox)this.FindName("nif_textbox");
+                nif.Text = "143673889";
+            }
         }
 
         private void editar_button_Click(object sender, RoutedEventArgs e)

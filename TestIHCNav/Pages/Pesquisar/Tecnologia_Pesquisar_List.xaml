@@ -25,11 +25,14 @@
         <mui:ModernTab x:Name="cinemas_list" Layout="List" Margin="0,0,38,0" Grid.Column="0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
                 <mui:Link DisplayName="Algarve Shopping" Source="Algarve Shopping" />
-                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
+                <mui:Link DisplayName="Alvaláxia" Source="Alvaláxia" />
+                <mui:Link DisplayName="Colombo" Source="Colombo" />
+                <mui:Link DisplayName="Dolce Vita Porto" Source="Dolce Vita Porto" />
                 <mui:Link DisplayName="Glicínias Plaza" Source="Glicínias Plaza" />
                 <mui:Link DisplayName="Leiria Shopping" Source="Leiria Shopping" />
+                <mui:Link DisplayName="Vasco da Gama" Source="Vasco da Gama" />
+                <mui:Link DisplayName="Viana Shopping" Source="Viana Shopping" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 
@@ -37,28 +40,20 @@
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
                 <mui:Link DisplayName="Má Vizinhança 2" Source="Má Vizinhança 2" />
-                <mui:Link DisplayName="Um Dia de Mãe" Source="Um Dia de Mãe" />
                 <mui:Link DisplayName="O Livro da Selva" Source="O Livro da Selva" />
+                <mui:Link DisplayName="Um Dia de Mãe" Source="Um Dia de Mãe" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 
         <mui:ModernTab x:Name="tecnologias_list" Layout="List"  Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged3" RenderTransformOrigin="0.399,0.447" Grid.Column="2">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
+                <mui:Link DisplayName="IMAX" Source="IMAX" />
                 <mui:Link DisplayName="Normal" Source="Normal" />
                 <mui:Link DisplayName="3D" Source="3D" />
-                <mui:Link DisplayName="IMAX" Source="IMAX" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
 
-        <!--    <mui:ModernTab x:Name="salas_list" Layout="List" Margin="167,0,464,0" Grid.RowSpan="3" SelectedSourceChanged="ModernTab_SelectedSourceChanged4" Grid.Column="1">
-            <mui:ModernTab.Links>
-                <mui:Link DisplayName="1" Source="1" />
-                <mui:Link DisplayName="2" Source="2" />
-                <mui:Link DisplayName="3" Source="3" />
-            </mui:ModernTab.Links>
-        </mui:ModernTab>
--->
         <TextBlock Margin="10,0,-48,82" FontSize="13.333" Grid.Column="3">Sala(s)</TextBlock>
         <TextBox x:Name="salas_textbox"  IsEnabled="False" Grid.Column="3" Margin="10,24,-82,54"/>
     </Grid>

@@ -58,7 +58,7 @@ namespace TestIHCNav.Pages.Editar
             if (e.Source.OriginalString.EndsWith("Um Dia de Mãe"))
             {
                 var id = (TextBox)this.FindName("id_textbox");
-                id.Text = "2";
+                id.Text = "3";
 
                 var titulo = (TextBox)this.FindName("titulo_textbox");
                 titulo.Text = "Um Dia de Mãe";
@@ -84,7 +84,7 @@ namespace TestIHCNav.Pages.Editar
             if (e.Source.OriginalString.EndsWith("O Livro da Selva"))
             {
                 var id = (TextBox)this.FindName("id_textbox");
-                id.Text = "3";
+                id.Text = "2";
 
                 var titulo = (TextBox)this.FindName("titulo_textbox");
                 titulo.Text = "O Livro da Selva";
