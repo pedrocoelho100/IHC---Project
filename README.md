@@ -6,9 +6,9 @@ It is developed in Visual Basic and C# and it is made in the software program Vi
 
 # Title
 
-<img align="left" src="/TestIHCNav/Images/5.png" title="Angular" hspace="20"/>
-<img align="left" src="/TestIHCNav/Images/6.png" title="Bootstrap" hspace="20"/>
-<img align="left" src="/TestIHCNav/Images/2.png" title="Browsersync" hspace="20"/>
+<img align="left" src="/TestIHCNav/Images/5.png" width="400" title="Angular" hspace="40"/>
+<img align="left" src="/TestIHCNav/Images/6.png" width="400" title="Bootstrap" hspace="40"/>
+<img align="left" src="/TestIHCNav/Images/2.png" width="400" title="Browsersync" hspace="40"/>
 <br/><br/><br/><br/><br/>
 
 ## Table of Contents...
