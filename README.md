@@ -6,6 +6,8 @@ It is developed in Visual Basic and C# and it is made in the software program Vi
 
 <img src="/TestIHCNav/Images/5.png" alt="Administrator Login Page"/>
 
+---
+
 <img src="/TestIHCNav/Images/6.png" alt="Options Menu of "Search" Task Page"/>
 
 <img src="/TestIHCNav/Images/2.png" alt="Options Menu of "Employees Management Page"/>
