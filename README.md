@@ -1,2 +1,2 @@
-# IHC---Project
+# IHC-Project
 Human-Computer Interaction Project
