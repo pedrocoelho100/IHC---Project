@@ -4,5 +4,5 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-![Optional Text](../The-Cinephile\TestIHCNav\Images/5.png)
+![Optional Text](C:\Users\Asus\Documents\Universidade\3 Ano\IHC\The-Cinephile\TestIHCNav\Images/5.png)
 
