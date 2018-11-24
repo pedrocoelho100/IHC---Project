@@ -4,5 +4,5 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-![Alt text](https://ibb.co/my59AV)
+![alt tag](http://ibb.co/my59AV)
 
