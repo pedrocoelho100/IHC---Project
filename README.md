@@ -4,5 +4,6 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-![](http://ibb.co/my59AV)
+<img src="/TestIHCNav/Images/6.png" alt="My cool logo"/>
+# My cool project and above is the logo of it
 
