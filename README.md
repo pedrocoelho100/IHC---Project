@@ -4,7 +4,7 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-#### Administrator Login Page
+#### - Administrator Login Page
 
 <img align="left" src="/TestIHCNav/Images/5.png" width="700" title="Angular" hspace="100"/>
 
