@@ -4,12 +4,11 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-<img src="/TestIHCNav/Images/5.png" alt="Administrator Login Page"/> 
+# Title
 
----
+<img align="left" src="/TestIHCNav/Images/5.png" title="Angular" hspace="20"/>
+<img align="left" src="/TestIHCNav/Images/6.png" title="Bootstrap" hspace="20"/>
+<img align="left" src="/TestIHCNav/Images/2.png" title="Browsersync" hspace="20"/>
+<br/><br/><br/><br/><br/>
 
-<img src="/TestIHCNav/Images/6.png" alt="Options Menu of "Search" Task Page"/> \
-
----
-
-<img src="/TestIHCNav/Images/2.png" alt="Options Menu of "Employees Management Page"/> \
+## Table of Contents...
