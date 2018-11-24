@@ -4,6 +4,11 @@
 
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 
-<img src="/TestIHCNav/Images/6.png" alt="My cool logo"/>
-# My cool project and above is the logo of it
+<img src="/TestIHCNav/Images/5.png" alt="Administrator Login Page"/>
+# Administrator Login Page
 
+<img src="/TestIHCNav/Images/6.png" alt="Options Menu of "Search" Task Page"/>
+# Options Menu of "Search" Task Page
+
+<img src="/TestIHCNav/Images/2.png" alt="Options Menu of "Employees Management Page"/>
+# Employees Management Page
