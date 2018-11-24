@@ -5,19 +5,19 @@
 It is developed in Visual Basic and C# and it is made in the software program Visual Studio.
 Some page examples below:
 
-#### - Administrator Login Page
+#### - Administrator Login Page:
 
 <img align="left" src="/TestIHCNav/Images/5.png" width="700" title="Angular" hspace="100"/>
 
 ----
 
-#### - Options Menu of "Search" Task Page
+#### - Options Menu of "Search" Task Page:
 
 <img align="left" src="/TestIHCNav/Images/6.png" width="700" title="Bootstrap" hspace="100"/>
 
 ----
 
-#### - Employees Management Page
+#### - Employees Management Page:
 
 <img align="left" src="/TestIHCNav/Images/2.png" width="700" title="Browsersync" hspace="100"/>
 
